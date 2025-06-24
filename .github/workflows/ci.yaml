@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: '18'
       - name: Install dependencies
-        run: npm install
+        run:  this is the test build for practice # npm install
       - name: build application
-        run: npm run build
+        run: this is the test build for practice
       - name: upload build artifacts
         uses: actions/upload-artifact@v4
         with:
